@@ -12,7 +12,7 @@ test('get started link', async ({ page }) => {
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
-   // Added new files to check the Git Conflict.
+  Test
   await page.getByRole('link', { name: 'Get started' }).click();
   await page.getByRole('link', { name: 'Get started' }).click();
   await page.getByRole('link', { name: 'Get started' }).click();
